@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* 초기화 태그 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 15px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none !important;
+	/* color: inherit; */ /* 부모태그의 컬러를 상속받아서 사용 */
+	cursor: pointer;
+}
+
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+  padding:1.5em !important;
+  background: #f5f5f5 !important;
+}
+
+
+/* index.jsp */
+header h1 {
+	padding: 30px 0;
+	font-weigth: bold;
+	color:  rgb(158, 111, 111);
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+    
+    
+}
+
+
+table th {
+    padding: 10px 0;
+    background-color: rgb(158, 111, 111);
+    color: white;
+    font-size: 1.5rem;
+}
+
+table th:first-child {
+	border-top-left-radius: 8px;
+}
+
+table th:last-child {
+	border-top-right-radius: 8px;
+}
+
+td {
+	padding: 15px 0;
+	background-color: white;
+	font-size: 1.2rem;
+	font-weight: bold;
+	color:  rgb(158, 111, 111);
+	
+	
+}
+
+td a {
+	color: rgb(158, 111, 111) !important;
+}
+
+td a:hover {
+	display: inline-block;
+	padding: 0 8px !important;
+	background-color:  rgb(158, 111, 111);
+	border-radius: 5px;
+	color: white !important;
+	font-weight: bold;
+	font-size: 1.1rem;
+	box-sizing: border-box;
+}
+
+td:first-child {
+	border-bottom-left-raidus: 8px !important;
+}
+
+
+.main-button {
+	margin-top: 30px;
+}
+
+.btn-write {
+	display: flex;
+	justify-content: flex-end;
+} 
+
+.write {
+	display: inline-block;
+	padding: 5px 10px !important;
+	background-color:  rgb(158, 111, 111);
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.customer_page {
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.customer_page a {
+	margin: 0 5px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: rgb(158, 111, 111);
+}

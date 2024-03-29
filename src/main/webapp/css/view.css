@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* 초기화 태그 */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 15px;
+}
+
+ul, li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none !important;
+	/* color: inherit; */ /* 부모태그의 컬러를 상속받아서 사용 */
+	cursor: pointer;
+}
+
+
+header {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+  padding:1.5em !important;
+  background: #f5f5f5 !important;
+}
+
+
+/* view.css */
+
+header h1 {
+	padding: 30px 0;
+	font-weigth: bold;
+	color:  rgb(158, 111, 111);
+}
+
+.wrap-test {
+	display: flex;
+	justify-content: center;
+}
+
+.wrap-test .card {
+	background-color: rgb(158, 111, 111) !important;
+	color: white !important;
+	padding: 10px auto !important;
+	margin:0 20px;
+	
+}
+
+section {
+	margin: 50px auto;
+}
+
+.bt_wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.on {
+	display: inline-block;
+	padding: 5px 10px; 
+	background-color:  rgb(158, 111, 111);
+	border-radius: 5px; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 1.1rem;
+	margin: 0 5px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 5px 10px; 
+	border-radius: 5px; 
+	color: white; 
+	font-weight: bold; 
+	font-size: 1.1rem;
+	margin: 0 5px;
+}
